@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    height: 100vh;
+    height: max-content;
     width: auto;
     display: flex;
     flex-flow: column;
@@ -63,4 +63,61 @@ ul > li > * {
     padding: 30px;
     color: #E5E7EB;
 }
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.container {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    background-color:#1f2937;
+    color: white;
+    align-items: center;
+}
+
+.center-hero {
+    display: flex;
+    flex-flow: row;
+    width: 900px;
+    margin: 80px;
+    flex: auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.headline {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    flex-flow: column;
+    padding-right: 10px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.image {
+    justify-content: flex-start;
+}
+
+.title {
+    font-weight:bolder;
+    font-size: 48px;
+}
+
+.squarespace {
+    flex: auto;
+    height: 40vh;
+}
+
 
