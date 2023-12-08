@@ -187,6 +187,21 @@ img{
   font-weight: 400;
 }
 
+
+.footer{
+  display:flex;
+  background-color: #1F2937;
+  height: 3dvh;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:2em;
+  padding-top:2em;
+}
+
+.footer>p{
+  color: white;
+}
+
 .action_call{
   display: flex;
   justify-content: center;
@@ -194,23 +209,53 @@ img{
 }
 
 .call_box{
+  max-height: 40dvh;
+  width: 60dvw;
   background-color: #3882F6;
   margin-top: 7dvh;
   margin-bottom: 7dvh;
-  border-radius: 4px;
+  border-radius: 10px;
   display: flex;
+  gap: 5em;
+  justify-content: space-evenly;
 }
 
-.call_box>button{
-  border: solid 2px white; 
-  border-radius: 2px;
-  background-color: transparent;
+.button_wrapper{
   display: flex;
+  background-color: #3882F6;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
+.call_box>.button_wrapper>button{
+  padding-left: 1dvw;
+  padding-right: 1dvw;
+  padding-top:2px;
+  padding-bottom:2px;
+  border: solid 2px white; 
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #3882F6;
+  width: fit-content;
+}
+
+
 .call_text_all{
+  color: white;
   display: flex;
   flex-flow: column;
+  justify-items: center;
+  align-self:center;
 }
+
+.call_text_all>h1{
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+.call_text_all>p{
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
