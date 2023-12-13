@@ -1,1 +1,1 @@
-Testing git branches and restarting from scratch
+Simple landing page for flexbox testing
